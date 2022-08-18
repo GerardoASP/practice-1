@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 1 IngSoftware2</title>
+</head>
+<body>
+    <form>
+        <label for="name">Nombre: </label>
+        <input type="text" id="name">
+
+        <label for="lastname">Apellido(s): </label>
+        <input type="text" id="lastname">
+
+        <select name="documents" id="documents">
+            <option value="CC">C.C</option>
+            <option value="TI">T.I</option>
+            <option value="CE">C.E</option>
+            <option value="PP">P.P</option>
+        </select>
+
+        <label for="num_doc">N* Documento</label>
+        <input type="text" id="num_doc">
+
+        <label for="F">F</label>
+        <input type="radio" id="F" name="gender" value="F">
+
+        <label for="M">M</label>
+        <input type="radio" id="M" name="gender" value="M">
+
+    </form>
+    <input type="submit" value="Submit" onclick="captura_datos()">
+</body>
+<script src="./js/form.js"></script>
+</html>
